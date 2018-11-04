@@ -1,1 +1,6 @@
-
+Fixed Wooden club recipe in the Survival guide GUI
+Damage dealt to entities by weapons and tools with the quality modifier is affected by the quality value (Item with quality 500 has two times bigger damage than the same item with quality 0)
+Skeletons can not start to bleed anymore
+Fixed some minor bugs (like the error message in the main menu)
+Removed some debug messages
+Cleaned the code a bit
