@@ -13,6 +13,7 @@ Locked Doors now make a sound on activating
 Poster block has a different texture now
 Added a new page to Survival Guide
 Updated the Forge Ahead book (Forging guide)
+Vanilla villages should no longer generate in the world
 Some cleaning of the code
 Some minor bug fixes
 Java 8+ is now REQUIRED due to some new features in Java 8, that allow easier modding. If there will be enough of interest, I might consider reverting back to Java 6-7.
