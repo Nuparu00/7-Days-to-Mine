@@ -1,19 +1,21 @@
-Enhanced Forge and forging mechanics - Forge now has 4 input slots. Many items now have their material - they can be scraped to scrap in crafting (for example an Empty Can to Scrap Iron) OR melted in the Forge
-Cars, Garbage piles, and Cardboard boxes no longer generate floating above the road
-Watchtowers in Quarantine districts should no longer float above the wall.
-Tweaked item damage values dealt to entities - Wooden Club is not anymore weaker than Stone Axe (while having the same quality)
-Changed Dysentery effect chance and length
-Lying Sticks model has been changed a bit - break particles are not purple anymore
-Catwalk Stairs break particles are not purple anymore
-Edited loot tables a bit - some new items, different spawn chances
-Players can now sit on Chair and Armchair blocks
-Chair and Armchair blocks have smaller hitboxes
-Improved Prefab system (the system used to generate structures) - now supports entity spawning,  reduces lags a bit(?)
-Locked Doors now make a sound on activating
-Poster block has a different texture now
-Added a new page to Survival Guide
-Updated the Forge Ahead book (Forging guide)
-Vanilla villages should no longer generate in the world
-Some cleaning of the code
-Some minor bug fixes
-Java 8+ is now REQUIRED due to some new features in Java 8, that allow easier modding. If there will be enough of interest, I might consider reverting back to Java 6-7.
+A player can sit on all Chair variants
+Reworked GUI for Table block
+Table block now uses baked .JSON model instead of TESR
+Table block now has 2nd variant - "modern"
+Blocks like Campfire, Stick, Rock, Landmines now have a proper working collision box
+Blocks like Corpse no longer glitch player when walking over them
+There is a chance of spawning a Zombie Cow when a Zombie kills a Cow
+Health boost is now applied only to Vanilla mobs
+Survivor now uses player-like model
+Survivor now has a different texture
+Survivors now have different professions, careers, and trades
+Villagers and Survivors are now attacked by Zombies
+Survivors now should always open GUI on an interaction
+Added a Cent item
+Added a Corn Seed item
+Corn Plant can be now planted from Corn Seed
+Removed obsolete .JSON files
+Fixed missing textures error messages in a console on startup
+The code has been cleaned a bit
+Added experimental entities - EntityAirplane and EnityAirdrop. You should not summon these unless you want to risk damaging your save!
+Radio block now has a new channel
