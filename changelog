@@ -1,21 +1,2 @@
-A player can sit on all Chair variants
-Reworked GUI for Table block
-Table block now uses baked .JSON model instead of TESR
-Table block now has 2nd variant - "modern"
-Blocks like Campfire, Stick, Rock, Landmines now have a proper working collision box
-Blocks like Corpse no longer glitch player when walking over them
-There is a chance of spawning a Zombie Cow when a Zombie kills a Cow
-Health boost is now applied only to Vanilla mobs
-Survivor now uses player-like model
-Survivor now has a different texture
-Survivors now have different professions, careers, and trades
-Villagers and Survivors are now attacked by Zombies
-Survivors now should always open GUI on an interaction
-Added a Cent item
-Added a Corn Seed item
-Corn Plant can be now planted from Corn Seed
-Removed obsolete .JSON files
-Fixed missing textures error messages in a console on startup
-The code has been cleaned a bit
-Added experimental entities - EntityAirplane and EnityAirdrop. You should not summon these unless you want to risk damaging your save!
-Radio block now has a new channel
+Fixed bug when you could scrap items even when a non-scrapable item was in the crafting grid, which resulted in a loss of the item.
+Vanilla Iron and Golden tools are no longer craftable - like Wooden and Stone ones.
