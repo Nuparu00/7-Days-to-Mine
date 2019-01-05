@@ -1,2 +1,16 @@
-Fixed bug when you could scrap items even when a non-scrapable item was in the crafting grid, which resulted in a loss of the item.
-Vanilla Iron and Golden tools are no longer craftable - like Wooden and Stone ones.
+New reworked Campfire GUI - now with 4 input slots and new background texture
+Reworked Campfire Recipe System - more intelligent recipe detection
+Added a few new recipes to Campfire
+Campfire and Forge should not anymore leave a stack of size 0 when finished smelting
+Campfire, Chemistry Station, Lathe, Electrolysis Apparatus no longer crash the game on shift-click
+Screen Projector no longer crashes the game when an ItemStack without NBT Tag is inside of it
+Flamethrower Trap now accepts Gasoline Bucket as a fuel source
+Campfire now changes to "lit" variant when burning
+"Lit" Campfire can set entities that are standing on it on fire
+"Lit" Campfire makes a crackling sound
+The Scrapping Recipe no longer override all other recipes, which made crafting of items like Forged Iron impossible
+Changed a bit the texture of Forged Iron
+Fixed old "wooden frame" names in the prefab files
+"changelog" and "download" buttons in the update warning GUI now open a web browser on click
+Added "Immersive Block Hardness" property to the config file, that can be used to disable the increased vanilla block breaking times
+Minor changes in the code
