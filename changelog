@@ -1,4 +1,9 @@
-New reworked Campfire GUI - now with 4 input slots and new background texture
+4.2c_h1
+  Fixed non-existing Wooden Frame recipes
+Improved Survival Guide GUI
+
+4.2c
+  New reworked Campfire GUI - now with 4 input slots and new background texture
 Reworked Campfire Recipe System - more intelligent recipe detection
 Added a few new recipes to Campfire
 Campfire and Forge should not anymore leave a stack of size 0 when finished smelting
