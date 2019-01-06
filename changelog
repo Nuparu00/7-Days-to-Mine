@@ -1,3 +1,8 @@
+4.2c_h2
+  Finally fixed Quarantine Zone watchtowers - they should spawn on the ground now.
+Fixed crash when generated a Wasteland-type world that had occurred due to an Eclipse bug
+Added a "Radio Station" structure, that is generated in wasteland-like and dry biomes.
+
 4.2c_h1
   Fixed non-existing Wooden Frame recipes
 Improved Survival Guide GUI
