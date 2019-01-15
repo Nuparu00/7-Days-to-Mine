@@ -1,3 +1,9 @@
+4.2c_h3
+  Disabling update checks in the config file no longer causes the game crash on launch.
+The Table GUI no longer leaves stacks of size 0 in slots when shift-clicking
+Campfire & Forge no longer ignore some recipes (for example Brass Ingot, Steel Ingot, bullet parts, etc...)
+Using ItemStacks with not NBT or without NBT Tag with name "Quality" no longer causes the game crash when trying to sue them in a crafting recipe for tool or weapon - they are automatically considered as if they had a quality of 0
+
 4.2c_h2
   Finally fixed Quarantine Zone watchtowers - they should spawn on the ground now.
 Fixed crash when generated a Wasteland-type world that had occurred due to an Eclipse bug
