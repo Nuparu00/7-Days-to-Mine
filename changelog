@@ -1,3 +1,14 @@
+4.2d
+  Added a crafting recipe for Advanced Bandage (one Bandage and a bottle of Grain Alcohol)
+Added a crafting recipe for First Aid Kit (one Advanced Bandage, one bottle of Grain Alcohol and one Blood Bag)
+Fixed missing drop of "Stick block"
+Set resistance and hardness of "Small Rock block" and "Stick block"
+Increased XP drop of some entities
+Increased a bit health of some entities
+Decreased movement speed of most entities (most notably decreased speed of Zombie Wolf by 20%)
+Added a limit on a spawn count of zombie wolves in a horde
+Changed a model of "Small Rock block"
+
 4.2c_h3
   Disabling update checks in the config file no longer causes the game crash on launch.
 The Table GUI no longer leaves stacks of size 0 in slots when shift-clicking
