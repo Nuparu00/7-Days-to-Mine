@@ -1,3 +1,14 @@
+4.2e
+ Most likely the last update for 1.8.9 - unless I have messed something up!
+Fixed Screwdriver recipe - now works anywhere in the Crafting grid
+Wild Pig spawned two times on the client-side
+Bloodmoon hordes basically did not exist
+Decreased hydration consumption rate by roughly 33%.
+All clothing items are now scrapable.
+Squids, Slimes, Magma Cubes, and Golems no longer bleed.
+Fixed Main Menu rendering
+Cleaned code.
+
 4.2d
   Added a crafting recipe for Advanced Bandage (one Bandage and a bottle of Grain Alcohol)
 Added a crafting recipe for First Aid Kit (one Advanced Bandage, one bottle of Grain Alcohol and one Blood Bag)
