@@ -1,3 +1,10 @@
+4.3a
+  Fixed generation of zebra crossings in cities
+Fixed cars being removed on crossings by another road
+Added garbage pile generation to cities
+Unified recipe book texture design
+Moved Ammunition Nation recipe book to correct creative tab
+
 4.3
   Fixed client disconnect when a player breaks an electrical device on Multiplayer/LAN
 Fixed client disconnect when a player clicks a button in Fuse Box GUI
