@@ -1,3 +1,30 @@
+4.3
+  Fixed client disconnect when a player breaks an electrical device on Multiplayer/LAN
+Fixed client disconnect when a player clicks a button in Fuse Box GUI
+Changed model and texture of Large Rock - fixed graphical glitches when breaking
+Large Rock now always drops some rocks on break
+Large Rock has a chance to drop some coal
+Decreased zombie movement speed
+Survivors will not try to run away from zombies
+Fixed a bug that caused Sedan GUI show "Weapon Storage" instead of "Sedan" as inventory name.
+Changed "Player Data" GUI text color from white to dark gray.
+Day 0 is now counted as a Day 1 - which means that bloodmoon occurs on Day 6 instead of Day 7 according to the Debug Screen (exactly 7 days after start of the game)
+Changed textures of iron tools
+Changed texture of Steel Pickaxe
+Changed texture of Photo
+Changed texture of Concrete Mix
+Changed textures of Plant Fiber armor items.
+Changed textures of Leather-Iron armor items.
+Changed textures of all ingots
+Changed texture of "Ground" block.
+Changed texture of Frigid Hunter, Frostbitten Worker, Frozen Lumberjack and Zombie Soldier
+Renamed Polaroid Camera to Analog Camera
+Improved city generation - sidewalks, traffic lights, street lamps, street names.
+Temporarily removed buildings from quarantine districts as they often caused holes in the walls resulting in a very fast zombie outbreak in the district.
+Added a creative-mode only command /generateCity <x> <y> <z>
+Removed some unused textures
+Minor code changes
+
 4.2e
  Most likely the last update for 1.8.9 - unless I have messed something up!
 Fixed Screwdriver recipe - now works anywhere in the Crafting grid
