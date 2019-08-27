@@ -22,7 +22,7 @@ Renamed Polaroid Camera to Analog Camera
 Improved city generation - sidewalks, traffic lights, street lamps, street names.
 Temporarily removed buildings from quarantine districts as they often caused holes in the walls resulting in a very fast zombie outbreak in the district.
 Added a creative-mode only command /generateCity <x> <y> <z>
-Wooden Frame recipe now produces 4 blocks instead od 2.
+Wooden Frame recipe now produces 4 blocks instead of 2
 Removed some unused textures
 Minor code changes
 
