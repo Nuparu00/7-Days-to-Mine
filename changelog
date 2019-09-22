@@ -1,3 +1,5 @@
+4.3b
+  Fixed an unfortunate bug that caused buildings not be generated in cities.
 4.3a
   Fixed generation of zebra crossings in cities
 Fixed cars being removed on crossings by another road
