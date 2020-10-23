@@ -1,3 +1,11 @@
+4.3c
+  Fixed guns and quality items generation in containers and corpses
+Fixed tooltips for items with the quality of 200,300,...
+Using tools with missing quality should no longer crash the game
+Buildings no longer generate pedestal all down to bedrock == faster structure generation
+Cookware no longer generates with metadata 1 == should work properly in a campfire
+Fixed version number in main menu
+Changed default zombie sound to the vanilla one
 4.3b
   Fixed an unfortunate bug that caused buildings not be generated in cities.
 4.3a
