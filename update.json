@@ -1,0 +1,10 @@
+{
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
+	"promos": {
+		"1.12.2-latest": "Beta 1.0",
+		"1.12.2-recommended": "Beta 1.0"
+	},
+	"1.12.2": {
+		"Beta 1.0": "Initial beta release"
+	}
+}
