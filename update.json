@@ -1,10 +1,11 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
 	"promos": {
-		"1.12.2-latest": "1.12.2-1.0.0.0",
-		"1.12.2-recommended": "1.12.2-1.0.0.0"
+		"1.12.2-latest": "1.12.2-1.0.0.1",
+		"1.12.2-recommended": "1.12.2-1.0.0.1"
 	},
 	"1.12.2": {
+		"1.12.2-1.0.0.1": "Fixed Mossy Brick Stairs recipe\nMade all melee weapons children of ItemSword\nRebalanced harvest levels of tools\nAdded \"tool class\" values to the tools, so they are recognized as tools by other mods",
 		"1.12.2-1.0.0.0": "Initial beta release"
 	}
 }
