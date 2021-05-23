@@ -1,10 +1,11 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
 	"promos": {
-		"1.12.2-latest": "1.12.2-1.0.1.2",
-		"1.12.2-recommended": "1.12.2-1.0.1.2"
+		"1.12.2-latest": "1.12.2-1.0.1.3",
+		"1.12.2-recommended": "1.12.2-1.0.1.3"
 	},
 	"1.12.2": {
+		"1.12.2-1.0.1.3": "Fixed the \"Missing NBT\" message being fired even if the NBT is in fact present\nAdded new textures by Krapsy",
 		"1.12.2-1.0.1.2": "Fixed the \"balance modifier\" config option not affecting zombies' health\nFixed the bug that caused computers that were mined using an auger (and maybe even other tools?) not to be actually mined",
 		"1.12.2-1.0.1.0": "Added config options allowing to alter the weight, minimal and maximal number of (hopefully) all the zombies.\nAdded a single config option controlling the health and damages in the mod - balanceModifier\nAdded the wasteland-biomes only landfill structure\nDecreased the weight of the city maps a bit",
 		"1.12.2-1.0.0.2": "Fixed the -1 Days to Die Advancement, so it is affected by the custom number of the infection stages from the config file\nAdded the \"disableFoodStacking\" option to the config file\nAdded the \"zombieCorpses\" option to the config file\nAdded the \"immersiveBlockBreakingModifier\" option to the config file\nFixed the Catwalk Stairs model when upside down",
