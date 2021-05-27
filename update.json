@@ -1,10 +1,11 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
 	"promos": {
-		"1.12.2-latest": "1.12.2-1.0.1.4",
-		"1.12.2-recommended": "1.12.2-1.0.1.4"
+		"1.12.2-latest": "1.12.2-1.0.1.5",
+		"1.12.2-recommended": "1.12.2-1.0.1.5"
 	},
 	"1.12.2": {
+		"1.12.2-1.0.1.5": "Blocks can have multiple repair items\nAdded config/sevendaystomine/repair.json, that can be used to add (or remove) block repairs\nAssigned repair items to certain blocks (for example, the Grass Block)\nParticles should not crash the game on collision with the cars\nHopefully fixed the custom particles crashing the game on collision with the cars (blocks)\nFixed the boolean data type in Ni\nAdded the modulo operator to Ni\nAdded boolean negation to Ni\nFixed minor bugs in Ni\nMade the electrical blocks technically use the Forge Energy System, realistically this does not change anything, but it might make it a bit easier for other mods to communicate with my devices",
 		"1.12.2-1.0.1.4": "The Epidemic game should not crash the game anymore when putting the mouse cursor on the very edge of the map.\nThe street decorator now checks whether sandy biomes do actually have vanilla sand as the surface block, (hopefully) preventing crashes when using mods that have custom sand\nMinor en_us.lang changes",
 		"1.12.2-1.0.1.3": "Fixed the \"Missing NBT\" message being fired even if the NBT is in fact present\nAdded new textures by Krapsy",
 		"1.12.2-1.0.1.2": "Fixed the \"balance modifier\" config option not affecting zombies' health\nFixed the bug that caused computers that were mined using an auger (and maybe even other tools?) not to be actually mined",
