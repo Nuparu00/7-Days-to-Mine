@@ -1,10 +1,11 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
 	"promos": {
-		"1.12.2-latest": "1.12.2-1.0.2.1",
-		"1.12.2-recommended": "1.12.2-1.0.2.1"
+		"1.12.2-latest": "1.12.2-1.0.2.2",
+		"1.12.2-recommended": "1.12.2-1.0.2.2"
 	},
 	"1.12.2": {
+		"1.12.2-1.0.2.2": "All monsters (both modded and vanilla) that attack the player now also attack the human NPCs\nAdded \"monstersAttackHumanNPCs\" config option\nFixed some minor errors in the English localization\nYou can not move backpack items from their slots while you are inside a backpack (the item, not the block). This applies to all the backpack items, not only the one the player opened. This should prevent potential item duplication.",
 		"1.12.2-1.0.2.1": "Fixed the \"Dropbox\" advancement being fired even if you did not open the airdrop\nFixed the inventory slots in the airdrop GUI being offset down by a couple of pixels\nAdded 2 small ruins structures\nAdded Russian localization (thanks to Nep Games)",
 		"1.12.2-1.0.2.0": "Added new \"hotel\" structure\nAdded \"damageDecayRate\" config option\nDamaged blocks now, by default, decay (or heal) over time\nAdded \"zombieKnockbackResistance\" config option\nDisabled cameras no longer rotate",
 		"1.12.2-1.0.1.6": "Fixed a tiny bug that made the generic/random hordes not actually spawn the zombies",
