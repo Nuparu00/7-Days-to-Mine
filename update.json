@@ -1,10 +1,11 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
 	"promos": {
-		"1.12.2-latest": "1.12.2-1.0.2.5",
-		"1.12.2-recommended": "1.12.2-1.0.2.5"
+		"1.12.2-latest": "1.12.2-1.0.2.7",
+		"1.12.2-recommended": "1.12.2-1.0.2.7"
 	},
 	"1.12.2": {
+		"1.12.2-1.0.2.7": "Made certain recipes, that did not use OreDictionary, use OreDictionary\nFixed Cooking Pot crafting recipe conflicting with Minecart crafting recipe\nSleeping should replenish some stamina (assuming the \"bed block\" also sets the spawn point, which might not always be the case when dealing with \"bed blocks\" from other mods)",
 		"1.12.2-1.0.2.5": "Actually fixed vehicles crashing servers.",
 		"1.12.2-1.0.2.4": "Hopefully fixed vehicles crashing servers\nMiner Zombies can now spawn with a Sledgehammer in their hand\nSledgehammer is now craftable\nKitchen Knife is now craftable\nWrenches and Screwdrivers are now slightly less common\nGuns in containers now spawn with a random amount of bullets\nFuel tools (Auger, Chainsaw) in containers now spawn with a random amount of fuel\nUsing Fuel Tools against entities now consumes fuel\nFuel Tools without fuel can not be used as a weapon anymore\nSlightly decreased the damage dealt by the Wrench\nFixed a typo in the Fuel Tools code that caused the NBT FuelCurrent and FuelMax fields to have the value the other one should have. This change might result in your current Fuel Tools having different amounts of fuel after they are loaded.",
 		"1.12.2-1.0.2.3": "The Log Spikes now deal damage only if you fall on them The damage dealt (both to the entity and the spikes) depends on the fall distance of the entity.",
