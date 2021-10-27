@@ -5,7 +5,7 @@
 		"1.12.2-recommended": "1.12.2-1.0.2.10"
 	},
 	"1.12.2": {
-		"1.12.2-1.0.2.10": "Fixed wet reinforced concrete not drying\nChanged reinforced concrete texures\nRemoved held item layer from non-biped entities",
+		"1.12.2-1.0.2.10": "Fixed wet reinforced concrete not drying\nChanged reinforced concrete textures\nRemoved held item layer from non-biped entities",
 		"1.12.2-1.0.2.9": "Fixed brass and bronze recipes",
 		"1.12.2-1.0.2.8": "Disabled damage cooldown for gunshots, making shotguns actually give the correct amount of damage\nDecreased damage of individual shotgun shots in order to make them less OP\nFixed the cement recipe in \"Set In Concrete\"",
 		"1.12.2-1.0.2.7": "Made certain recipes, that did not use OreDictionary, use OreDictionary\nFixed Cooking Pot crafting recipe conflicting with Minecart crafting recipe\nSleeping should replenish some stamina (assuming the \"bed block\" also sets the spawn point, which might not always be the case when dealing with \"bed blocks\" from other mods)",
