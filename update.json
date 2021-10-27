@@ -1,8 +1,8 @@
 {
 	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
 	"promos": {
-		"1.12.2-latest": "1.12.2-1.0.2.10
-		"1.12.2-recommended": "1.12.2-1.0.2.10
+		"1.12.2-latest": "1.12.2-1.0.2.10",
+		"1.12.2-recommended": "1.12.2-1.0.2.10"
 	},
 	"1.12.2": {
 		"1.12.2-1.0.2.10": "Fixed wet reinforced concrete not drying\nChanged reinforced concrete texures\nRemoved held item layer from non-biped entities",
