@@ -1,35 +1,36 @@
 {
-	"homepage": "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
-	"promos": {
-		"1.16.5-latest": "1.16.5-2.0.0.0-beta3",
-		"1.16.5-recommended": "1.16.5-2.0.0.0-beta3",
-		"1.12.2-latest": "1.12.2-1.0.2.10",
-		"1.12.2-recommended": "1.12.2-1.0.2.10"
-	},
-	"1.16.5": {
-		"1.16.5-2.0.0.0-beta3" : "Fixed Large Rocks dropping itself instead of iron/coal/potassium\nAdded generateStructuresIn config option (Server config), that should allow you to set in what dimensions can roads and structures generate\nTorches are not extinguished by rain in biomes with no rain (e.g. desert biomes) anymore\ntorchBurnTime, torchRainExtinguish, and zombiesBreakBlocks config options should now work properly\nZombie block breaking is affected by the mobGriefing gamerule\nHopefully did not break some other stuff, as the file size is suspiciously smaller than it was before",
-		"1.16.5-2.0.0.0-beta2" : "Fixed crashes on player's death\nChanged the default thirst bar style to a more vanilla one (possible to change back in the client config - oldHUD)",
-		"1.16.5-2.0.0.0-beta1" : "https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files/3638749"
-	},
-	"1.12.2": {
-		"1.12.2-1.0.2.10": "Fixed wet reinforced concrete not drying\nChanged reinforced concrete textures\nRemoved held item layer from non-biped entities",
-		"1.12.2-1.0.2.9": "Fixed brass and bronze recipes",
-		"1.12.2-1.0.2.8": "Disabled damage cooldown for gunshots, making shotguns actually give the correct amount of damage\nDecreased damage of individual shotgun shots in order to make them less OP\nFixed the cement recipe in \"Set In Concrete\"",
-		"1.12.2-1.0.2.7": "Made certain recipes, that did not use OreDictionary, use OreDictionary\nFixed Cooking Pot crafting recipe conflicting with Minecart crafting recipe\nSleeping should replenish some stamina (assuming the \"bed block\" also sets the spawn point, which might not always be the case when dealing with \"bed blocks\" from other mods)",
-		"1.12.2-1.0.2.5": "Actually fixed vehicles crashing servers.",
-		"1.12.2-1.0.2.4": "Hopefully fixed vehicles crashing servers\nMiner Zombies can now spawn with a Sledgehammer in their hand\nSledgehammer is now craftable\nKitchen Knife is now craftable\nWrenches and Screwdrivers are now slightly less common\nGuns in containers now spawn with a random amount of bullets\nFuel tools (Auger, Chainsaw) in containers now spawn with a random amount of fuel\nUsing Fuel Tools against entities now consumes fuel\nFuel Tools without fuel can not be used as a weapon anymore\nSlightly decreased the damage dealt by the Wrench\nFixed a typo in the Fuel Tools code that caused the NBT FuelCurrent and FuelMax fields to have the value the other one should have. This change might result in your current Fuel Tools having different amounts of fuel after they are loaded.",
-		"1.12.2-1.0.2.3": "The Log Spikes now deal damage only if you fall on them The damage dealt (both to the entity and the spikes) depends on the fall distance of the entity.",
-		"1.12.2-1.0.2.2": "All monsters (both modded and vanilla) that attack the player now also attack the human NPCs\nAdded \"monstersAttackHumanNPCs\" config option\nFixed some minor errors in the English localization\nYou can not move backpack items from their slots while you are inside a backpack (the item, not the block). This applies to all the backpack items, not only the one the player opened. This should prevent potential item duplication.",
-		"1.12.2-1.0.2.1": "Fixed the \"Dropbox\" advancement being fired even if you did not open the airdrop\nFixed the inventory slots in the airdrop GUI being offset down by a couple of pixels\nAdded 2 small ruins structures\nAdded Russian localization (thanks to Nep Games)",
-		"1.12.2-1.0.2.0": "Added new \"hotel\" structure\nAdded \"damageDecayRate\" config option\nDamaged blocks now, by default, decay (or heal) over time\nAdded \"zombieKnockbackResistance\" config option\nDisabled cameras no longer rotate",
-		"1.12.2-1.0.1.6": "Fixed a tiny bug that made the generic/random hordes not actually spawn the zombies",
-		"1.12.2-1.0.1.5": "Blocks can have multiple repair items\nAdded config/sevendaystomine/repair.json, that can be used to add (or remove) block repairs\nAssigned repair items to certain blocks (for example, the Grass Block)\nParticles should not crash the game on collision with the cars\nHopefully fixed the custom particles crashing the game on collision with the cars (blocks)\nFixed the boolean data type in Ni\nAdded the modulo operator to Ni\nAdded boolean negation to Ni\nFixed minor bugs in Ni\nMade the electrical blocks technically use the Forge Energy System, realistically this does not change anything, but it might make it a bit easier for other mods to communicate with my devices",
-		"1.12.2-1.0.1.4": "The Epidemic game should not crash the game anymore when putting the mouse cursor on the very edge of the map.\nThe street decorator now checks whether sandy biomes do actually have vanilla sand as the surface block, (hopefully) preventing crashes when using mods that have custom sand\nMinor en_us.lang changes",
-		"1.12.2-1.0.1.3": "Fixed the \"Missing NBT\" message being fired even if the NBT is in fact present\nAdded new textures by Krapsy",
-		"1.12.2-1.0.1.2": "Fixed the \"balance modifier\" config option not affecting zombies' health\nFixed the bug that caused computers that were mined using an auger (and maybe even other tools?) not to be actually mined",
-		"1.12.2-1.0.1.0": "Added config options allowing to alter the weight, minimal and maximal number of (hopefully) all the zombies.\nAdded a single config option controlling the health and damages in the mod - balanceModifier\nAdded the wasteland-biomes only landfill structure\nDecreased the weight of the city maps a bit",
-		"1.12.2-1.0.0.2": "Fixed the -1 Days to Die Advancement, so it is affected by the custom number of the infection stages from the config file\nAdded the \"disableFoodStacking\" option to the config file\nAdded the \"zombieCorpses\" option to the config file\nAdded the \"immersiveBlockBreakingModifier\" option to the config file\nFixed the Catwalk Stairs model when upside down",
-		"1.12.2-1.0.0.1": "Fixed Mossy Brick Stairs recipe\nMade all melee weapons children of ItemSword\nRebalanced harvest levels of tools\nAdded \"tool class\" values to the tools, so they are recognized as tools by other mods",
-		"1.12.2-1.0.0.0": "Initial beta release"
-	}
+   "homepage":"https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files",
+   "promos":{
+      "1.16.5-latest":"1.16.5-2.0.0.0-beta4",
+      "1.16.5-recommended":"1.16.5-2.0.0.0-beta4",
+      "1.12.2-latest":"1.12.2-1.0.2.10",
+      "1.12.2-recommended":"1.12.2-1.0.2.10"
+   },
+   "1.16.5":{
+      "1.16.5-2.0.0.0-beta4":"Fixed game crashing when using along with GeckoLib\nFixed game crashing when using along with Minecraft Comes Alive\nFixed zombies not dropping XP\nFixed bloated zombie model\nPotentially fixed a game crash related to the main menu that some have experienced",
+      "1.16.5-2.0.0.0-beta3":"Fixed Large Rocks dropping itself instead of iron/coal/potassium\nAdded generateStructuresIn config option (Server config), that should allow you to set in what dimensions can roads and structures generate\nTorches are not extinguished by rain in biomes with no rain (e.g. desert biomes) anymore\ntorchBurnTime, torchRainExtinguish, and zombiesBreakBlocks config options should now work properly\nZombie block breaking is affected by the mobGriefing gamerule\nHopefully did not break some other stuff, as the file size is suspiciously smaller than it was before",
+      "1.16.5-2.0.0.0-beta2":"Fixed crashes on player's death\nChanged the default thirst bar style to a more vanilla one (possible to change back in the client config - oldHUD)",
+      "1.16.5-2.0.0.0-beta1":"https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files/3638749"
+   },
+   "1.12.2":{
+      "1.12.2-1.0.2.10":"Fixed wet reinforced concrete not drying\nChanged reinforced concrete textures\nRemoved held item layer from non-biped entities",
+      "1.12.2-1.0.2.9":"Fixed brass and bronze recipes",
+      "1.12.2-1.0.2.8":"Disabled damage cooldown for gunshots, making shotguns actually give the correct amount of damage\nDecreased damage of individual shotgun shots in order to make them less OP\nFixed the cement recipe in \"Set In Concrete\"",
+      "1.12.2-1.0.2.7":"Made certain recipes, that did not use OreDictionary, use OreDictionary\nFixed Cooking Pot crafting recipe conflicting with Minecart crafting recipe\nSleeping should replenish some stamina (assuming the \"bed block\" also sets the spawn point, which might not always be the case when dealing with \"bed blocks\" from other mods)",
+      "1.12.2-1.0.2.5":"Actually fixed vehicles crashing servers.",
+      "1.12.2-1.0.2.4":"Hopefully fixed vehicles crashing servers\nMiner Zombies can now spawn with a Sledgehammer in their hand\nSledgehammer is now craftable\nKitchen Knife is now craftable\nWrenches and Screwdrivers are now slightly less common\nGuns in containers now spawn with a random amount of bullets\nFuel tools (Auger, Chainsaw) in containers now spawn with a random amount of fuel\nUsing Fuel Tools against entities now consumes fuel\nFuel Tools without fuel can not be used as a weapon anymore\nSlightly decreased the damage dealt by the Wrench\nFixed a typo in the Fuel Tools code that caused the NBT FuelCurrent and FuelMax fields to have the value the other one should have. This change might result in your current Fuel Tools having different amounts of fuel after they are loaded.",
+      "1.12.2-1.0.2.3":"The Log Spikes now deal damage only if you fall on them The damage dealt (both to the entity and the spikes) depends on the fall distance of the entity.",
+      "1.12.2-1.0.2.2":"All monsters (both modded and vanilla) that attack the player now also attack the human NPCs\nAdded \"monstersAttackHumanNPCs\" config option\nFixed some minor errors in the English localization\nYou can not move backpack items from their slots while you are inside a backpack (the item, not the block). This applies to all the backpack items, not only the one the player opened. This should prevent potential item duplication.",
+      "1.12.2-1.0.2.1":"Fixed the \"Dropbox\" advancement being fired even if you did not open the airdrop\nFixed the inventory slots in the airdrop GUI being offset down by a couple of pixels\nAdded 2 small ruins structures\nAdded Russian localization (thanks to Nep Games)",
+      "1.12.2-1.0.2.0":"Added new \"hotel\" structure\nAdded \"damageDecayRate\" config option\nDamaged blocks now, by default, decay (or heal) over time\nAdded \"zombieKnockbackResistance\" config option\nDisabled cameras no longer rotate",
+      "1.12.2-1.0.1.6":"Fixed a tiny bug that made the generic/random hordes not actually spawn the zombies",
+      "1.12.2-1.0.1.5":"Blocks can have multiple repair items\nAdded config/sevendaystomine/repair.json, that can be used to add (or remove) block repairs\nAssigned repair items to certain blocks (for example, the Grass Block)\nParticles should not crash the game on collision with the cars\nHopefully fixed the custom particles crashing the game on collision with the cars (blocks)\nFixed the boolean data type in Ni\nAdded the modulo operator to Ni\nAdded boolean negation to Ni\nFixed minor bugs in Ni\nMade the electrical blocks technically use the Forge Energy System, realistically this does not change anything, but it might make it a bit easier for other mods to communicate with my devices",
+      "1.12.2-1.0.1.4":"The Epidemic game should not crash the game anymore when putting the mouse cursor on the very edge of the map.\nThe street decorator now checks whether sandy biomes do actually have vanilla sand as the surface block, (hopefully) preventing crashes when using mods that have custom sand\nMinor en_us.lang changes",
+      "1.12.2-1.0.1.3":"Fixed the \"Missing NBT\" message being fired even if the NBT is in fact present\nAdded new textures by Krapsy",
+      "1.12.2-1.0.1.2":"Fixed the \"balance modifier\" config option not affecting zombies' health\nFixed the bug that caused computers that were mined using an auger (and maybe even other tools?) not to be actually mined",
+      "1.12.2-1.0.1.0":"Added config options allowing to alter the weight, minimal and maximal number of (hopefully) all the zombies.\nAdded a single config option controlling the health and damages in the mod - balanceModifier\nAdded the wasteland-biomes only landfill structure\nDecreased the weight of the city maps a bit",
+      "1.12.2-1.0.0.2":"Fixed the -1 Days to Die Advancement, so it is affected by the custom number of the infection stages from the config file\nAdded the \"disableFoodStacking\" option to the config file\nAdded the \"zombieCorpses\" option to the config file\nAdded the \"immersiveBlockBreakingModifier\" option to the config file\nFixed the Catwalk Stairs model when upside down",
+      "1.12.2-1.0.0.1":"Fixed Mossy Brick Stairs recipe\nMade all melee weapons children of ItemSword\nRebalanced harvest levels of tools\nAdded \"tool class\" values to the tools, so they are recognized as tools by other mods",
+      "1.12.2-1.0.0.0":"Initial beta release"
+   }
 }
