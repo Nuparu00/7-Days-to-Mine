@@ -3,8 +3,8 @@
    "promos":{
       "1.16.5-latest":"1.16.5-2.0.0.0-beta4",
       "1.16.5-recommended":"1.16.5-2.0.0.0-beta4",
-      "1.12.2-latest":"1.12.2-1.0.2.10",
-      "1.12.2-recommended":"1.12.2-1.0.2.10"
+      "1.12.2-latest":"1.12.2-1.0.3.0",
+      "1.12.2-recommended":"1.12.2-1.0.3.0"
    },
    "1.16.5":{
       "1.16.5-2.0.0.0-beta4":"Fixed game crashing when using along with GeckoLib\nFixed game crashing when using along with Minecraft Comes Alive\nFixed zombies not dropping XP\nFixed bloated zombie model\nPotentially fixed a game crash related to the main menu that some have experienced",
@@ -13,6 +13,7 @@
       "1.16.5-2.0.0.0-beta1":"https://www.curseforge.com/minecraft/mc-mods/days-to-mine/files/3638749"
    },
    "1.12.2":{
+      "1.12.2-1.0.3.0":"Added scrap items for all metals\nAdded gear item\nAdded scrap values for many blocks and items (both vanilla and modded)\nAdded empty can mold\nAdded glass pane mold\nAdded /bloodmoon command\nAdded /generatebuilding command\nAdded blodmoonColorR, blodmoonColorG, blodmoonColorB config options\nAdded replaceTorches config option\nAdded announceAirdropPosition config option\nAdded animalsAvoidZombies config option\nAdded a basic CraftTweaker support, allowing you to define custom forge, campfire, chemistry and separator recipes, custom block repairs and custom block upgrades\nJEI shows scrap recipes (that use only one type of item as otherwise there would be hundreds of recipes)\nAdded several \"paintings\" (\"posters\" would maybe be a better word)\nScrap system supports non-integer \"weights\" (namely fractions)\nChanged scrap weights of most items\nChanged some textures (mainly those that were larger than 16x16)\nChanged some models\nChanged the colors of the spawn eggs so they are unique\nBloodmoons use the vanilla texture one (or if you lose a resource pack the one from the resource pack), which is dynamically recolored (based on blodmoonColorR, blodmoonColorG and blodmoonColorB)\nIn the same way, during bloodmoons, is recolored the sky, clouds and zombie eyes\nTamed wolves killed by a zombie spawn a wolf zombie with the same collar color\nMade naturally generated workbenches more common + they can be generated in car repair shops and sewers now\n\"inspecting\" a photo now does not cover the entire screen\nRadiators, sink faucets and shower heads are now salvageable\nSalvaging now uses the Vanilla loot table system\nKnives are no longer rendered in or near the player's legs\nFixed dresser loot table\nFixed/edited some crafting recipes\nFixed bandits fighting each other\nFixed (analog) camera sometimes including the UI or the shelf item (when in 1st person) in the photo\nBroken code safes now remember their code even when they were unlocked while breaking\nThe Acacia Wooden Frame now has the correct texture\nFixed some typos\n",
       "1.12.2-1.0.2.10":"Fixed wet reinforced concrete not drying\nChanged reinforced concrete textures\nRemoved held item layer from non-biped entities",
       "1.12.2-1.0.2.9":"Fixed brass and bronze recipes",
       "1.12.2-1.0.2.8":"Disabled damage cooldown for gunshots, making shotguns actually give the correct amount of damage\nDecreased damage of individual shotgun shots in order to make them less OP\nFixed the cement recipe in \"Set In Concrete\"",
